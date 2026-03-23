@@ -10,6 +10,9 @@ public class Main{
         //var exercicios 2
         int bornYear,actualYear,ageA,ageB;
 
+        //var exercicios 3
+        float dol,brl,exchange;
+
         //Exercicio 1
         System.out.println("Leia tres numeros inteiros e imprima a media aritmetica entre esses numeros");
         System.out.print("Nota 1: ");
@@ -34,10 +37,17 @@ public class Main{
 
         //Exercicio 3 : Faça um programa que receba a cotação do dólar em reais, e um valor
         //que o usuário possui em dólares. Imprima este valor em reais.
-
+        System.out.print("Qual a cotação atual do dolar : ");
+        dol  = sogra.nextFloat();
+        System.out.print("Quantos reais voce tem em conta atualmente : ");
+        brl = sogra.nextFloat();
+        exchange = brl/dol;
+        System.out.printf("Voce consegue comprar %.2f dolares com o dinheiro em conta", exchange);
 
         //Exercicio 4 : Faça um programa que calcule e mostre a área de um losango AREA =
         //(DIAGONAL MAIOR * DIAGONAL MENOR)/2
+
+
 
     }
 }
