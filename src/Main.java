@@ -6,12 +6,12 @@ public class Main{
         //var exercicios 1
         Scanner sogra = new Scanner(System.in);
         int nota1,nota2,nota3,media;
-
         //var exercicios 2
         int bornYear,actualYear,ageA,ageB;
-
         //var exercicios 3
         float dol,brl,exchange;
+        //var exercicios 4
+        float diagonaMaior,diagonaMenor,areaLosango;
 
         //Exercicio 1
         System.out.println("Leia tres numeros inteiros e imprima a media aritmetica entre esses numeros");
@@ -46,7 +46,12 @@ public class Main{
 
         //Exercicio 4 : Faça um programa que calcule e mostre a área de um losango AREA =
         //(DIAGONAL MAIOR * DIAGONAL MENOR)/2
-
+        System.out.print("Informe a diagonal maior : ");
+        diagonaMaior = sogra.nextFloat();
+        System.out.print("Informe a diagonal menor : ");
+        diagonaMenor = sogra.nextFloat();
+        areaLosango = (diagonaMaior * diagonaMenor)/2;
+        System.out.printf("A area total do Losango seria %.3f", areaLosango);
 
 
     }
