@@ -1,4 +1,4 @@
-package april13;
+package days.april13;
 import java.util.Scanner;
 
 public class array {

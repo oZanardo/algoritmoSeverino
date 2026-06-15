@@ -1,3 +1,5 @@
+package EstruturaSequencial;
+
 import java.util.*;
 
 public class Main{

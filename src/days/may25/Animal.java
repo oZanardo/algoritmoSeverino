@@ -1,4 +1,4 @@
-package may25;
+package days.may25;
 
 public class Animal {
     private String nome;

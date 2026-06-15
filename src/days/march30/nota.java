@@ -1,4 +1,4 @@
-package march30;
+package days.march30;
 import java.util.Scanner;
 
 public class nota {

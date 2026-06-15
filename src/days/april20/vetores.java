@@ -1,4 +1,4 @@
-package april20;
+package days.april20;
 import java.util.Scanner;
 
 public class vetores {

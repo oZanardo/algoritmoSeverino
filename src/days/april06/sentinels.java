@@ -1,4 +1,4 @@
-package april06;
+package days.april06;
 import java.util.Scanner;
 
 public class sentinels {
