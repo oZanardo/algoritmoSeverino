@@ -1,4 +1,4 @@
-package EstruturaCondicional;
+package ExerciciosSEVERINOOO.EstruturaCondicional;
 import java.util.Scanner;
 
 public class main {

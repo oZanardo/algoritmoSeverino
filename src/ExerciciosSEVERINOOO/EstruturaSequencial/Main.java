@@ -1,4 +1,4 @@
-package EstruturaSequencial;
+package ExerciciosSEVERINOOO.EstruturaSequencial;
 
 import java.util.*;
 
